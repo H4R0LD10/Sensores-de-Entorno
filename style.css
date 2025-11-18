@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+}
+
+footer {
+    margin-top: 25px;       /* Espacio entre la tarjeta y el texto */
+    color: white;           /* Blanco para contrastar con el fondo lila/azul */
+    text-align: center;
+    font-size: 0.9rem;      /* Un poco más pequeño que el texto normal */
+    text-shadow: 0 1px 3px rgba(0,0,0,0.2); /* Sombra suave para leerse mejor */
+    opacity: 0.9;           /* Un toque de transparencia para elegancia */
+}
