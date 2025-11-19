@@ -1,5 +1,5 @@
 // 🔹 Reemplaza con tu propia API key de OpenWeatherMap (https://openweathermap.org/api)
-const API_KEY = "57c7832d47ea03c9b1ec55259f18dcee";
+const API_KEY = "e236e346e4f6fdd1a559a2638a7fee4c";
 
 // Referencias a los elementos HTML
 const locationEl = document.getElementById("location");
@@ -40,7 +40,7 @@ async function getWeather(lat, lon) {
         const city = data.name;
 
         weatherEl.textContent = `${city}: ${temp}°C, ${desc}`;
-    } catch (err) {
+    } catch (err) {     
         console.error(err); // Es bueno ver el error en consola si algo falla
         weatherEl.textContent = "Error al obtener los datos del clima.";
     }
